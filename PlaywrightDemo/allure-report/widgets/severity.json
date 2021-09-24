@@ -1,0 +1,21 @@
+[ {
+  "uid" : "8e9b731a38e0ce41",
+  "name" : "Google Page Test",
+  "time" : {
+    "start" : 1632431333797,
+    "stop" : 1632431335316,
+    "duration" : 1519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a3e367de73a72d",
+  "name" : "Playwright test",
+  "time" : {
+    "start" : 1632431319336,
+    "stop" : 1632431333797,
+    "duration" : 14461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,53 @@
+{
+  "uid" : "82a9c73e104b006b",
+  "name" : "Playwright test",
+  "fullName" : "Playwright test",
+  "historyId" : " src\\tests\\foo.spec.ts Playwright test",
+  "time" : {
+    "start" : 1632431181706,
+    "stop" : 1632431194588,
+    "duration" : 12882
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "video",
+      "type" : "video/webm",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "src\\tests\\foo.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82a9c73e104b006b.json",
+  "parameterValues" : [ ]
+}

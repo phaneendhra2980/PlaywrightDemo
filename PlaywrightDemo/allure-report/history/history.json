@@ -1,0 +1,40 @@
+{
+  " src\\tests\\foo.spec.ts Playwright test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a3e367de73a72d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632431319336,
+        "stop" : 1632431333797,
+        "duration" : 14461
+      }
+    } ]
+  },
+  " src\\tests\\foo.spec.ts Google Page Test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e9b731a38e0ce41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632431333797,
+        "stop" : 1632431335316,
+        "duration" : 1519
+      }
+    } ]
+  }
+}

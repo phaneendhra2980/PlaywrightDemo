@@ -1,0 +1,118 @@
+{
+  "uid" : "8e9b731a38e0ce41",
+  "name" : "Google Page Test",
+  "fullName" : "Google Page Test",
+  "historyId" : " src\\tests\\foo.spec.ts Google Page Test",
+  "time" : {
+    "start" : 1632431333797,
+    "stop" : 1632431335316,
+    "duration" : 1519
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "168885045a69838",
+      "name" : "video",
+      "source" : "168885045a69838.webm",
+      "type" : "video/webm",
+      "size" : 66723
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "src\\tests\\foo.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "753815c792754d8a",
+      "status" : "failed",
+      "statusDetails" : "page.title: Execution context was destroyed, most likely because of a navigation.",
+      "time" : {
+        "start" : 1632431198720,
+        "stop" : 1632431212466,
+        "duration" : 13746
+      }
+    }, {
+      "uid" : "77a9247f1682197e",
+      "status" : "failed",
+      "statusDetails" : "page.title: Execution context was destroyed, most likely because of a navigation.",
+      "time" : {
+        "start" : 1632431194589,
+        "stop" : 1632431196082,
+        "duration" : 1493
+      }
+    }, {
+      "uid" : "8034cb7445c425a8",
+      "status" : "failed",
+      "statusDetails" : "page.goto: net::ERR_NAME_NOT_RESOLVED at https://google.com/\n=========================== logs ===========================\nnavigating to \"https://google.com/\", waiting until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1632431020634,
+        "stop" : 1632431033265,
+        "duration" : 12631
+      }
+    }, {
+      "uid" : "746e0c83e9edc3d4",
+      "status" : "failed",
+      "statusDetails" : "page.title: Execution context was destroyed, most likely because of a navigation.",
+      "time" : {
+        "start" : 1632431016547,
+        "stop" : 1632431018041,
+        "duration" : 1494
+      }
+    }, {
+      "uid" : "d78a5a6939379142",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632430860692,
+        "stop" : 1632430873278,
+        "duration" : 12586
+      }
+    }, {
+      "uid" : "64d15bcbf862c8d4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632430844583,
+        "stop" : 1632430858095,
+        "duration" : 13512
+      }
+    }, {
+      "uid" : "4948526a035adf35",
+      "status" : "failed",
+      "statusDetails" : "page.title: Execution context was destroyed, most likely because of a navigation.",
+      "time" : {
+        "start" : 1632430166034,
+        "stop" : 1632430167296,
+        "duration" : 1262
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e9b731a38e0ce41.json",
+  "parameterValues" : [ ]
+}

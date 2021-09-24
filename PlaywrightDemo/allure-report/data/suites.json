@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "src\\tests\\foo.spec.ts",
+    "children" : [ {
+      "name" : "Playwright test",
+      "uid" : "8a3e367de73a72d",
+      "parentUid" : "989947e5b0ec5410da4846c567035580",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632431319336,
+        "stop" : 1632431333797,
+        "duration" : 14461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Google Page Test",
+      "uid" : "8e9b731a38e0ce41",
+      "parentUid" : "989947e5b0ec5410da4846c567035580",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632431333797,
+        "stop" : 1632431335316,
+        "duration" : 1519
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "989947e5b0ec5410da4846c567035580"
+  } ]
+}

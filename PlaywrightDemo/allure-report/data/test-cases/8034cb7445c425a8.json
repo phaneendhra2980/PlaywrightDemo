@@ -1,0 +1,57 @@
+{
+  "uid" : "8034cb7445c425a8",
+  "name" : "Google Page Test",
+  "fullName" : "Google Page Test",
+  "historyId" : " src\\tests\\foo.spec.ts Google Page Test",
+  "time" : {
+    "start" : 1632431020634,
+    "stop" : 1632431033265,
+    "duration" : 12631
+  },
+  "status" : "failed",
+  "statusMessage" : "page.goto: net::ERR_NAME_NOT_RESOLVED at https://google.com/\n=========================== logs ===========================\nnavigating to \"https://google.com/\", waiting until \"load\"\n============================================================",
+  "statusTrace" : "page.goto: net::ERR_NAME_NOT_RESOLVED at https://google.com/\n=========================== logs ===========================\nnavigating to \"https://google.com/\", waiting until \"load\"\n============================================================\n    at C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\src\\tests\\foo.spec.ts:21:16\n    at TestTypeImpl._step (C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\node_modules\\@playwright\\test\\lib\\test\\testType.js:208:13)\n    at Function.step (C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\node_modules\\@playwright\\test\\lib\\test\\transform.js:133:12)\n    at C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\src\\tests\\foo.spec.ts:20:14\n    at FixtureRunner.resolveParametersAndRunHookOrTest (C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:303:12)\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "page.goto: net::ERR_NAME_NOT_RESOLVED at https://google.com/\n=========================== logs ===========================\nnavigating to \"https://google.com/\", waiting until \"load\"\n============================================================",
+    "statusTrace" : "page.goto: net::ERR_NAME_NOT_RESOLVED at https://google.com/\n=========================== logs ===========================\nnavigating to \"https://google.com/\", waiting until \"load\"\n============================================================\n    at C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\src\\tests\\foo.spec.ts:21:16\n    at TestTypeImpl._step (C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\node_modules\\@playwright\\test\\lib\\test\\testType.js:208:13)\n    at Function.step (C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\node_modules\\@playwright\\test\\lib\\test\\transform.js:133:12)\n    at C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\src\\tests\\foo.spec.ts:20:14\n    at FixtureRunner.resolveParametersAndRunHookOrTest (C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\node_modules\\@playwright\\test\\lib\\test\\fixtures.js:303:12)\n    at WorkerRunner._runTestWithBeforeHooks (C:\\Automation\\playwrightdemo\\PlaywrightDemo\\PlaywrightDemo\\node_modules\\@playwright\\test\\lib\\test\\workerRunner.js:449:7)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "video",
+      "type" : "video/webm",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "src\\tests\\foo.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8034cb7445c425a8.json",
+  "parameterValues" : [ ]
+}

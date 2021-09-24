@@ -1,0 +1,39 @@
+{
+  "uid" : "8dc94c028831e28e",
+  "name" : "Playwright test",
+  "fullName" : "Playwright test",
+  "historyId" : " src\\tests\\foo.spec.ts Playwright test",
+  "time" : {
+    "start" : 1632430153634,
+    "stop" : 1632430166034,
+    "duration" : 12400
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "src\\tests\\foo.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8dc94c028831e28e.json",
+  "parameterValues" : [ ]
+}
