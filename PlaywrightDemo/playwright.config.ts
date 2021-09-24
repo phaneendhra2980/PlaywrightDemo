@@ -4,6 +4,7 @@ const config: PlaywrightTestConfig = {
     use: {
         headless: false,
         video: 'on'
+        
     },
     reporter: 'experimental-allure-playwright',
     retries: 1,
